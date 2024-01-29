@@ -2,7 +2,7 @@
 
 .skillBox {
   display: flex;
-  background-color: var(--background-color1);
+  background-color: var(--bg-200);
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   align-items: center;
@@ -14,22 +14,23 @@
 .skillBox:hover {
   transition: 0.4s;
   transform: translate(0px, -15px);
+  background-color: var(--primary-100);
 }
 
-.skillBox:hover .iconskill {
-  transition: 0.4s;
-  color: aliceblue;
-}
-
-.skillBox:hover .skillLevel {
-  transition: 0.4s;
+.skillBox:hover .skillLevel .iconskill {
   color: goldenrod;
 }
 
 .iconskill {
-  /* size: 10px; */
   font-size: 3.5rem;
   display: flex;
+  border-radius: 25%;
+  color: var(--primary-200);
+}
+
+.skillBox:hover .iconskill {
+  transition: 0.5s;
+  /* color: var(--accent-200); */
   border-radius: 25%;
 }
 
@@ -42,14 +43,14 @@
 
 .skillLangague {
   font-size: 1.5rem;
-  color: var(--title-color);
+  color: var(--accent-100);
   font-weight: 700;
 }
 
 .skillLevel {
   font-size: 1.1rem;
   font-weight: 500;
-  color: var(--stats-color);
+  color: var(--accent-200);
 }
 
 .Box1 {
