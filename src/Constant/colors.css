@@ -1,0 +1,19 @@
+:root {
+  --background-color: #1c2321;
+  --background-color1: #7d98a1;
+  --background-color2: #5e6572;
+  --background-color3: #a9b4c2;
+  --background-color4: #eef1ef;
+  --title-color: rgb(253, 225, 189);
+  --stats-color: #a9b4c2;
+  --primary-100: #1f3a5f;
+  --primary-200: #4d648d;
+  --primary-300: #acc2ef;
+  --accent-100: #3d5a80;
+  --accent-200: #cee8ff;
+  --text-100: #ffffff;
+  --text-200: #e0e0e0;
+  --bg-100: #0f1c2e;
+  --bg-200: #1f2b3e;
+  --bg-300: #374357;
+}

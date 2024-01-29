@@ -1,0 +1,117 @@
+@import "../Constant/colors.css";
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar {
+  padding: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  backdrop-filter: blur(10px);
+}
+
+.navigation_link div {
+  transition: 0.5s;
+  user-select: none;
+  cursor: pointer;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-radius: 5px;
+}
+
+.navigation_link div:hover {
+  user-select: none;
+  transition: 0.5s;
+  cursor: pointer;
+  transform: scale(1.1);
+  border-radius: 5px;
+  color: white;
+}
+
+.space_between {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation_link {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.name {
+  align-items: center;
+  display: flex;
+  padding-right: 1rem;
+}
+
+.textStyle {
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#SocialLinkSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: rgba(2, 3, 4, 0.3); */
+  background-color: var(--bg-300);
+  border-radius: 10px; /* Adjust the border-radius for rounded corners */
+
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.45) inset;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  transition: 0.3s;
+}
+
+#SocialLinkSection:hover {
+  transition: 0.3s;
+  background-color: rgba(94, 154, 200, 0.8);
+}
+
+.SocialIcons {
+  cursor: pointer;
+  font-size: 2.5rem;
+  margin: 0.1em 0.5em 0.1em 0.5em;
+  transition: 1s;
+}
+
+.SocialIcons:hover {
+  transform: scale(1.4);
+  transition: 0.2s;
+}
+
+#Github {
+  fill: black;
+}
+
+#Linkedin {
+  background: #0072b1;
+  border-radius: 20%;
+  padding: 0.1em;
+}
+
+#Instagram {
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+  border-radius: 20%;
+  padding: 0.1em;
+}

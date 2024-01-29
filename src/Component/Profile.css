@@ -1,0 +1,36 @@
+@import "../Constant/colors.css";
+
+#Profile {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1200px;
+  /* background-color: #9399a1; */
+  border-radius: 6px;
+  padding: 2rem;
+  /* box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2); */
+}
+
+.AnimatedText {
+  text-decoration: none;
+  font-size: xx-large;
+}
+
+.image {
+  border-radius: 25%;
+}
+
+.ProfileText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+#ProfileBox {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
